@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i&subset=latin-ext,vietnamese');
+
+
+h1, h2, h3, h4, h5 , h6 {
+  font-weight: 300;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+canvas.fireworks {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  z-index: 1111111;
+}
+.content {
+  position: absolute;
+  width: 500px;
+  height: fit-content;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+}
+
+#description {
+  text-align: justify;
+}
+.content > * {
+  margin: 20px 0;
+}
+.links > a {
+  color: #47b883;
+  text-decoration: none;
+  margin: 0 10px;
+  z-index: 11111111;
+}
