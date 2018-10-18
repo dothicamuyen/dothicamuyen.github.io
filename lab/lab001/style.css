@@ -1,0 +1,28 @@
+body, html {
+  background: #222222;
+}
+
+.mid {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  transform: translateZ(0);
+  perspective: 1000;
+  backwards-visibility: hidden;
+}
+
+#shadow, .model, #lt-paths, #dots, #main, #dots path, #strong-paths, .line {
+  visibility: hidden; 
+}
+
+.midCirc { opacity: 0.2; }
+
+.s0 {
+	stop-color:#FFFFFF;
+}
+.s1 {
+	stop-color:#D7E1F2;
+}
+.s2 {
+	stop-color:#1F1B26;
+}
